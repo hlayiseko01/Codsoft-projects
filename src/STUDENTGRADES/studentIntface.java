@@ -1,3 +1,5 @@
+package STUDENTGRADES;
+
 import java.util.Scanner;
 public class studentIntface {
     public static void main(String[]arg) {

@@ -1,5 +1,3 @@
-package STUDENTGRADES;
-
 import java.util.Scanner;
 public class Marks {
 Scanner input =new Scanner(System.in);

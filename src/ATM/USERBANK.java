@@ -1,3 +1,5 @@
+package ATM;
+
 public class USERBANK {
     private double balance;
 

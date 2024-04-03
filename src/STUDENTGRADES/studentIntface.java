@@ -12,7 +12,7 @@ public class studentIntface {
 
         int[] scores = new int[subjects];
         marks.inputmarks(scores);
-        averagePercent= marks.total/subjects;
+        averagePercent= (double) marks.total /subjects;
 
         System.out.println("TOTAL GRADES :"+marks.total );
         System.out.println("GRADE AVERAGE :"+ averagePercent);

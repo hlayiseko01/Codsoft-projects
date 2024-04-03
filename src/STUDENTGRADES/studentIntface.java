@@ -7,11 +7,13 @@ public class studentIntface {
         Marks marks= new Marks();
         int subjects;
         double averagePercent;
+
+
         System.out.println("please enter the number of subjects you are studying");
         subjects= input.nextInt();
 
         int[] scores = new int[subjects];
-        marks.inputmarks(scores);
+        marks.inputmarks(scores);//calling method to enter all the scores
         averagePercent= (double) marks.total /subjects;
 
         System.out.println("TOTAL GRADES :"+marks.total );

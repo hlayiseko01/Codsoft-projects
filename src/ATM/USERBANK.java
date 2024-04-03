@@ -7,6 +7,7 @@ public class USERBANK {
         this.balance = initialBalance;
     }
 
+    //depositing amount to users balance
     public void deposit(double amount) {
         if (amount > 0) {
             balance = balance + amount;
@@ -18,6 +19,7 @@ public class USERBANK {
         }
     }
 
+    //withdrawing amount to users balance
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance =balance- amount;
@@ -29,6 +31,7 @@ public class USERBANK {
         }
     }
 
+    //accessing balance
     public double checkBalance() {
         return balance;
     }

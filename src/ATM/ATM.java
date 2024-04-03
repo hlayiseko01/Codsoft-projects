@@ -10,6 +10,7 @@ public class ATM
         USERBANK account = new USERBANK(initialBalance);
 
         while (true) {
+            //the interface where user will choose options
             System.out.println("\n\tWELCOME TO OUR ATM");
             System.out.println("\nChoose an option:\n");
             System.out.println("1. Deposit");
@@ -19,6 +20,7 @@ public class ATM
             System.out.print("Enter your choice: ");
             int choice = input.nextInt();
 
+             //switch to perform actions based on users choice
             switch (choice) {
                 case 1:
                     double depositAmount;
